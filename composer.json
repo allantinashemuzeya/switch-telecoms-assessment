@@ -1,0 +1,20 @@
+{
+    "name": "allan.muzeya/switch-telecoms",
+    "description": "Developer assessement",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "AllanMuzeya\\SwitchTelecoms\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Allan Muzeya",
+            "email": "allan@thecodematsers.co.za"
+        }
+    ],
+    "minimum-stability": "beta",
+    "require": {
+        "spatie/ray": "^1.36"
+    }
+}
