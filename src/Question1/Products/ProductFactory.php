@@ -6,7 +6,7 @@ class ProductFactory
 {
 
 
-    public static function create($type)
+    public static function create($type): Trunk|Line|null
     {
         $product = null;
         switch ($type){

@@ -7,13 +7,15 @@ use AllanMuzeya\SwitchTelecoms\Question1\Interfaces\ProductInterface;
 class Trunk implements ProductInterface
 {
 
+    protected int|float $serviceFee = 10;
+
     public function getServiceFee(): int|float
     {
-        // TODO: Implement getServiceFee() method.
+        return $this->serviceFee;
     }
 
-    public function setServiceFee($fee): void
+    public function setServiceFee($serviceFee): void
     {
-        // TODO: Implement setServiceFee() method.
+        $this->serviceFee = $serviceFee;
     }
 }
