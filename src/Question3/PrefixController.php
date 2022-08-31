@@ -17,6 +17,7 @@ class PrefixController implements PrefixInterface
     public function destination($telephone):  bool
     {
         $prefix = new Prefix();
+
         $data = $prefix->sorted();
         $index = 0;
 

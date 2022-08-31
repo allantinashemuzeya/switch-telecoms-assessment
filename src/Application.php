@@ -10,6 +10,9 @@ class Application
 {
 
 
+    /**
+     * @throws Exception
+     */
     public static function start(): void
     {
         $app = (new Application);
@@ -37,6 +40,8 @@ class Application
     public function questionThree(): void
     {
         $prefixController = new PrefixController();
-        $prefixController->destination('555555');
+        $prefixController->destination('011555555');
+
+        var_dump($prefixController->destination);
     }
 }
